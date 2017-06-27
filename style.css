@@ -1,11 +1,13 @@
 body, div, nav, img, a, p, h1, h3 {
   margin: 0;
   padding: 0;
-  
+  text-decoration: none;
+  /*обнуление значений для тегов*/
 }
 body {
   background-color: violet;
 }
+
 .main {
   width: 800px;
   margin: 50px auto;
@@ -23,3 +25,106 @@ body {
   height:100%;
   border: none;
 }
+nav a
+{
+    text-decoration: none;
+    font-size: 22px;
+}
+/*для тега а опредилили размер и свойством задали чтобы не было подчеркивания*/
+nav a:active hover
+{
+    text-decoration: underline;
+    color: red;
+}
+/*определили, что при нажатии на ссылку будет линия и поменяется цвет*/
+nav span
+{
+    color:indigo;
+}
+/*тегу span определили цвает*/
+.button 
+{
+    background-color:aqua;
+    font-style:italic;
+    color: black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+/*кнопке login определили фон, цвет текста и окружность*/
+.button:hover
+{
+    background-color:red;
+    font-style:italic;
+    color: black;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    
+    
+}
+/*кнопке login определили фон, цвет текста и окружность при нажатии*/
+p.content
+{
+    color:blue;
+}
+/*классу content тега р определили цвет*/
+p.content:hover
+{
+    color: red;
+    font-size:28px;
+}
+/*классу content тега р определили цвет и размер при наведении*/
+
+h3
+{
+ font-size: 44px;
+ color :deeppink;
+ 
+}
+/*тегу h3 определили размер и цвет*/
+h3:hover
+{
+ font-size: 74px;
+ color :deeppink;
+ 
+}
+/*тегу h3 определили размер и цвет при наведении*/
+h1.content.animation-appear
+{
+    color:violet;
+}
+/*классу .content.animation-appear тега h1 определили цвет*/
+h1.content.animation-appear:hover
+{
+    color:navy;
+    font-size: 44px;
+}
+/*классу .content.animation-appear тега h1 определили цвет и размер при наведении*/
+a.content.animation-appear  
+{
+    color:deeppink;
+}
+/*классу .content.animation-appear тега а определили цвет*/
+a.content.animation-appear:hover  
+{
+    color:blue;
+    font-size:28px;
+}
+/*классу .content.animation-appear тега а определили цвет и размер при наведении*/
+h3.end
+{
+ font-size: 24px;
+ color :deeppink;
+ 
+}
+/*классу end тега h3 определили цвет и размер*/
+h3.end:hover
+{
+    
+   
+    font-size: 74px;
+}
+/*классу end тега h3 определили цвет и размер при наведении*/

@@ -25,11 +25,37 @@ body {
   height:100%;
   border: none;
 }
+nav
+{
+    height: 60px;
+    line-height:2;
+}
+/*Определили тегу nav высоту и межстрочный интерльяж*/
 nav a
 {
     text-decoration: none;
     font-size: 22px;
+    
 }
+/*Задали значение тегу а тега nav размер и чтобы не было подчеркивания*/
+.nav--active
+{
+    text-align: center;
+    
+}
+/*Указали классу .nav--active расположение текста по центру*/
+.nav--active a
+{
+    text-align: center;
+    font-size: 34px;
+}
+/*Указали классу .nav--active тега а что размер текста равен 34*/
+.nav--active a:hover
+{
+    color:red;
+    font-size: 39px;
+}
+/*Указали классу .nav--active тега а что при поднесении мышки к элементу он меняет цвет и размер*/
 /*для тега а опредилили размер и свойством задали чтобы не было подчеркивания*/
 nav a:active hover
 {
@@ -37,6 +63,10 @@ nav a:active hover
     color: red;
 }
 /*определили, что при нажатии на ссылку будет линия и поменяется цвет*/
+form{
+    text-align: center;
+}
+/*Задали значение расположение тега form и всех его элементов по центру*/
 nav span
 {
     color:indigo;
@@ -69,6 +99,7 @@ nav span
 p.content
 {
     color:blue;
+    text-align: center;
 }
 /*классу content тега р определили цвет*/
 p.content:hover
@@ -82,6 +113,7 @@ h3
 {
  font-size: 44px;
  color :deeppink;
+ text-align: center;
  
 }
 /*тегу h3 определили размер и цвет*/
@@ -95,6 +127,7 @@ h3:hover
 h1.content.animation-appear
 {
     color:violet;
+    text-align: center;
 }
 /*классу .content.animation-appear тега h1 определили цвет*/
 h1.content.animation-appear:hover
@@ -106,6 +139,7 @@ h1.content.animation-appear:hover
 a.content.animation-appear  
 {
     color:deeppink;
+    text-align: center;
 }
 /*классу .content.animation-appear тега а определили цвет*/
 a.content.animation-appear:hover  
@@ -118,6 +152,7 @@ h3.end
 {
  font-size: 24px;
  color :deeppink;
+ text-align: center;
  
 }
 /*классу end тега h3 определили цвет и размер*/
